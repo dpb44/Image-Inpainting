@@ -7,7 +7,7 @@ We demonstrate this by undersampling a **256×256 grayscale image of a house**, 
 
 To reconstruct the image, we solve a constrained optimization problem where missing values are chosen to minimize the matrix rank. However, since directly minimizing rank is computationally expensive, we reformulate the problem using a **projector matrix** and minimize the **Frobenius norm** between the projections of the undersampled image and a low-rank factorized approximation (product of two matrices, A and B).  
 
-We then implemented the Alternating Steepest Descent (ASD) algorithm. 
+We then implemented the Alternating Steepest Descent (ASD) algorithm to minimize the optimization function. 
 
 ---
 ## **ASD Algorithn**
@@ -23,7 +23,6 @@ ASD is widely used in optimization problems due to its **simplicity** and **low 
   - First, it adjusts one matrix while keeping the other fixed.  
   - Then, it switches and refines the second matrix while keeping the first one fixed.  
 - By repeating this process, it gradually improves the estimated image.
-- 
 
 #### **Adjusting the Update Step**  
 
