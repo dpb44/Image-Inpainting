@@ -43,9 +43,11 @@ The algorithm continues refining the image until:
 
 ---
 
-## **Results**  
+## **Results**
 
-✅ The algorithm **successfully reconstructs** the image with low computational cost (converging within **60-80 iterations**).  
+![Image](https://github.com/user-attachments/assets/b0e4bf45-b7e1-4495-a11f-850bdc88562f)
+
+✅ The algorithm **successfully reconstructs** the image with low computational cost (converging within **60-80 iterations**).
 ✅ The optimal value of **r = 50** provides the best reconstruction quality.  
 ✅ Higher values of **r > 50** allow the model to capture more intricate details, but improvements are negligible beyond the true rank.  
 ✅ The algorithm achieves **~95% accuracy** when at least **60% of the image is retained**.  
