@@ -48,9 +48,13 @@ The algorithm continues refining the image until:
 ![Image](https://github.com/user-attachments/assets/b0e4bf45-b7e1-4495-a11f-850bdc88562f)
 
 ✅ The algorithm **successfully reconstructs** the image with low computational cost (converging within **60-80 iterations**).
-✅ The optimal value of **r = 50** provides the best reconstruction quality.  
+
+✅ The optimal value of **r = 50** provides the best reconstruction quality. 
+
 ✅ Higher values of **r > 50** allow the model to capture more intricate details, but improvements are negligible beyond the true rank.  
+
 ✅ The algorithm achieves **~95% accuracy** when at least **60% of the image is retained**.  
+
 ✅ The algorithm's accuracy remains above **85%** for perturbed undersampled images indicating it's resilience to low levels of pertubation.
 
 ### **Testing on Different Scenarios**  
@@ -65,7 +69,8 @@ The algorithm continues refining the image until:
 
 This method is particularly useful for **image inpainting** where missing pixel information needs to be reconstructed in **low-rank matrices**.  
 
-A **real-world example** of this is:  
+A **real-world example** of this is: 
+
 ✅ **Recommender Systems** – Where sparse user preference data is collected, and the missing values are inferred to make better recommendations.  
 
 ---
