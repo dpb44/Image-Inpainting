@@ -95,4 +95,4 @@ This algorithm can be used for:
 ---
 
 ## **Credits & Acknowledgments**  
-This coursework was completed under the mentorship of **Mr. Waleed Ali** (Math Professor).  
+This coursework was completed under the guidance of **Mr. Waleed Ali** (Mathematics Professor).  
